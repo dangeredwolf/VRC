@@ -256,6 +256,8 @@ namespace Vinesauce_ROM_Corruptor
                 return;
             }
 
+            Console.WriteLine(SelectedROM);
+
             // Read the ROM in.
             byte[] ROM = SelectedROM.Load();
             if (ROM == null)
